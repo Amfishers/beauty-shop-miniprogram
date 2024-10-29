@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "b-rate": "/components/rate/index",
+    "card-serve": "/components/card/cardserve",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "uni-number-box": "/components/uni-ui/uni-number-box/uni-number-box",
+    "more": "/components/more/index"
+  }
+}

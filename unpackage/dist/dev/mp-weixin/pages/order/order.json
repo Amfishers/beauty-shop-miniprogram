@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "goods-item": "/components/order/goodsItem",
+    "service-items": "/components/order/serviceItems"
+  }
+}

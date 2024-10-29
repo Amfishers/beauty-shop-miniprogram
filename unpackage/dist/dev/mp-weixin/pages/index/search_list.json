@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "搜索",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "card": "/components/card/card",
+    "card-serve": "/components/card/cardserve",
+    "card-store": "/components/card/cardstore"
+  }
+}

@@ -1,0 +1,172 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 文字尺寸 */
+/*
+* 自定义样式
+*/
+/*line-color*/
+page {
+  background-color: #F7F7F7;
+}
+.search_list_hd {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #FFF;
+  z-index: 10;
+}
+.search_list_empty {
+  padding-top: 180rpx;
+  color: #999999;
+  font-size: 24rpx;
+}
+.search-bar {
+  padding: 0 32rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-cancel {
+  padding-left: 40rpx;
+  line-height: 68rpx;
+  font-size: 30rpx;
+}
+.search-input {
+  flex: 1;
+  position: relative;
+  padding-left: 84rpx;
+  background-color: #F7F7F7;
+  border-radius: 34rpx;
+  height: 68rpx;
+}
+.search-input .iconfont {
+  position: absolute;
+  top: 50%;
+  left: 28rpx;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: #999999;
+}
+.search-input__input {
+  line-height: 68rpx;
+  height: 68rpx;
+}
+.tab-nav {
+  padding-top: 168rpx;
+}
+.tab-nav__main {
+  font-size: 0;
+  width: 100%;
+  height: 88rpx;
+  white-space: nowrap;
+  padding: 0 24rpx;
+  margin: 12rpx 0 0;
+}
+.tab-nav__item {
+  margin-top: 8rpx;
+  display: inline-block;
+  line-height: 88rpx;
+  margin-right: 64rpx;
+  color: #666;
+}
+.tab-nav__item-text {
+  position: relative;
+  line-height: 54rpx;
+  font-size: 32rpx;
+}
+.tab-nav__item--active {
+  font-weight: 500;
+  color: #1D1D1D;
+}
+.tab-nav__item--active::before {
+  content: '';
+  position: absolute;
+  bottom: -14rpx;
+  left: 50%;
+  width: 40rpx;
+  height: 6rpx;
+  background-color: #1D1D1D;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 6rpx;
+}
+.tab-nav__item:last-child {
+  margin-right: 0;
+}
+.tab-nav__title {
+  margin: 24rpx 0;
+}
+.tab-nav__title .title {
+  display: inline-block;
+  padding-left: 20rpx;
+  font-size: 32rpx;
+  line-height: 45rpx;
+}
+.tab-nav__title .subtitle {
+  padding-left: 16rpx;
+  color: #999999;
+  font-size: 24rpx;
+}
+.gridlist {
+  padding: 24rpx;
+}
+.gridlist--grid {
+  margin-left: -22rpx;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.gridlist--grid-item {
+  display: block;
+  width: 50%;
+  padding-left: 22rpx;
+  margin: 12rpx 0;
+}
+.storelist {
+  padding: 24rpx;
+}
+.storelist-item {
+  display: block;
+  margin: 24rpx 0;
+}
+.loadmore {
+  flex: 1;
+  width: 100%;
+  text-align: center;
+  color: #666666;
+  line-height: 50rpx;
+  padding: 12rpx 0;
+}
+.loadmore-img {
+  margin-left: 10rpx;
+  width: 28rpx;
+  height: 28rpx;
+  vertical-align: -2px;
+}
+

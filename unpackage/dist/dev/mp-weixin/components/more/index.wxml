@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['_navigate',['$0'],['url']]]]]}}" class="more flex align-center justify-center" bindtap="__e"><text class="more-text">{{moreText}}</text><image class="more-img" src="{{image_path+'/more.png'}}"></image></view>

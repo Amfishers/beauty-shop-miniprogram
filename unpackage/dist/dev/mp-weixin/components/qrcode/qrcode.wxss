@@ -1,0 +1,20 @@
+
+.qrcode{
+	position: relative;
+}
+.relative{
+	position: relative;
+}
+.qrcode-canvas {
+	position: fixed;
+	top: -99999rpx;
+	left: -99999rpx;
+	z-index: -99999;
+}
+.bg-qccode{
+	position: absolute;
+	z-index: 1;
+	top:0;
+	background: rgba(255,255,255,0.75);
+}
+

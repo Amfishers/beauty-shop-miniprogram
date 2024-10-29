@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "floor_title": "/components/template/floor_title",
+    "rate": "/components/rate",
+    "more": "/components/more/index"
+  }
+}

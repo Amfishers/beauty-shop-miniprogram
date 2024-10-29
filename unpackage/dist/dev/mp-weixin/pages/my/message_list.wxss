@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 文字尺寸 */
+/*
+* 自定义样式
+*/
+/*line-color*/
+.index {
+  background-color: #ffffff;
+}
+.nav-item {
+  position: relative;
+}
+.nav-item.nav-on::after {
+  content: '';
+  display: inline-block;
+  width: 80rpx;
+  height: 4rpx;
+  background: #f14744;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -40rpx;
+}
+.cu-list.menu-avatar > .cu-item {
+  height: 186rpx;
+}
+.cu-list.menu-avatar > .cu-item .content {
+  left: 176rpx;
+  width: calc(100% - 300rpx);
+  line-height: 1;
+}
+.cu-list.menu-avatar > .cu-item .content .title {
+  font-size: 32rpx;
+  color: #333333;
+  font-weight: 500;
+  margin-bottom: 16rpx;
+}
+.cu-list.menu-avatar > .cu-item .content .subtitle {
+  font-size: 26rpx;
+  color: #999999;
+  font-weight: 500;
+}
+.cu-list.menu-avatar > .cu-item .action {
+  width: 124rpx;
+  font-size: 22rpx;
+  color: #999999;
+}
+.message-icon {
+  width: 112rpx;
+  height: 112rpx;
+  left: 32rpx;
+}
+.cu-list.menu-avatar > .cu-item::after,
+.cu-list.menu > .cu-item::after {
+  width: calc(200% - 176rpx) !important;
+  left: 176rpx;
+}
+.msg-list {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 16rpx;
+  background: #ffffff;
+}
+.msg-list .msg-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 32rpx;
+  border-bottom: 1px #f2f2f2 solid;
+}
+.msg-list .msg-left {
+  padding-right: 32rpx;
+}
+.msg-list .msg-left image {
+  width: 112rpx;
+  height: 112rpx;
+}
+.msg-list .msg-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.msg-list .msg-mid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.msg-list .m-title {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #333;
+}
+.msg-list .m-time {
+  font-size: 22rpx;
+  color: #999999;
+}
+.msg-list .m-content {
+  font-size: 26rpx;
+  color: #999999;
+}
+

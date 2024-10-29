@@ -1,0 +1,6 @@
+
+.bg-plus{
+	background-color: rgb(49,46,54);
+	color: #ffffff;
+}
+

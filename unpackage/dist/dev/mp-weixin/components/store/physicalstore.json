@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "b-rate": "/components/rate/index",
+    "card": "/components/card/card",
+    "card-line": "/components/card/cardline"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "navigationBarTitleText": "用户商城",
+  "navigationBarTextStyle": "white",
+  "navigationStyle": "custom",
+  "navigationBarBackgroundColor": "#242424",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "menu-bar": "/components/index/menubar",
+    "img_banner": "/components/template/img_banner",
+    "img_grid4": "/components/template/img_grid4",
+    "img_grid1": "/components/template/img_grid1",
+    "img_grid3a": "/components/template/img_grid3a",
+    "img_grid2": "/components/template/img_grid2",
+    "img_grid3b": "/components/template/img_grid3b",
+    "img_scroll": "/components/template/img_scroll",
+    "template_h5": "/components/template/template_h5",
+    "template_stores": "/components/template/template_stores",
+    "template_goods": "/components/template/template_goods",
+    "img_popup": "/components/template/img_popup",
+    "tab-bar": "/components/tabbar/index"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "floor_title": "/components/template/floor_title"
+  }
+}

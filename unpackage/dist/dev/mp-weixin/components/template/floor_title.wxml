@@ -1,0 +1,1 @@
+<view><view class="bg-white"><view class="floor-header"><view class="floor-name">{{''+title+''}}<text>{{sub_title}}</text></view></view></view></view>

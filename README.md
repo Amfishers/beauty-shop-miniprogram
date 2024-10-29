@@ -1,2 +1,1 @@
-# beauty-shop-miniprogram
-beauty 小程序
+### beauty_shop

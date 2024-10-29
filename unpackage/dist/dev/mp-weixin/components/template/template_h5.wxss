@@ -1,0 +1,7 @@
+
+.h5{
+	max-width: 750rpx;
+	width: 750rpx;
+	overflow-x: hidden!important
+}
+

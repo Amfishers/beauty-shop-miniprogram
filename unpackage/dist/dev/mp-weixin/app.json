@@ -1,0 +1,106 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/city",
+    "pages/index/special",
+    "pages/index/article",
+    "pages/login/login",
+    "pages/goods/goods",
+    "pages/goods/list",
+    "pages/index/search",
+    "pages/index/search_list",
+    "pages/goods/category",
+    "pages/goods/comment",
+    "pages/goods/consult",
+    "pages/index/coupon",
+    "pages/store/store",
+    "pages/store/list",
+    "pages/cart/cart",
+    "pages/cart/pay",
+    "pages/cart/result",
+    "pages/live/live",
+    "pages/live/list",
+    "pages/cart/submit",
+    "pages/my/my",
+    "pages/my/info",
+    "pages/my/address",
+    "pages/my/address_list",
+    "pages/my/coupon_list",
+    "pages/my/plus",
+    "pages/my/plus_record",
+    "pages/my/faq",
+    "pages/my/faq_list",
+    "pages/my/message",
+    "pages/my/message_list",
+    "pages/my/recommend",
+    "pages/my/cash_out",
+    "pages/my/cash_out_list",
+    "pages/my/money",
+    "pages/order/order",
+    "pages/order/order_list",
+    "pages/order/refund",
+    "pages/order/refund_list",
+    "pages/order/track",
+    "pages/order/evaluate",
+    "pages/order/service_order",
+    "pages/order/service_order_list",
+    "pages/my/setting",
+    "pages/my/invite",
+    "pages/my/bankcard",
+    "pages/my/bankcard_list",
+    "pages/my/earnings",
+    "pages/test/test"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "borderStyle": "black",
+    "backgroundColor": "#1D1D1D",
+    "selectedColor": "#CA935E",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/index@2x.png",
+        "selectedIconPath": "static/tabbar/index-active@2x.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/goods/category",
+        "iconPath": "static/tabbar/goods@2x.png",
+        "selectedIconPath": "static/tabbar/goods-active@2x.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/tabbar/cart@2x.png",
+        "selectedIconPath": "static/tabbar/cart-active@2x.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/tabbar/my@2x.png",
+        "selectedIconPath": "static/tabbar/my-active@2x.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {
+    "b-rate": "/components/rate/index",
+    "b-icon": "/components/icon/index",
+    "cu-custom": "/components/customHeader/index",
+    "back-top-top": "/components/backToTop/index",
+    "load-more": "/components/loadmore/index"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="blank bg-white flex flex-direction align-center justify-center"><image class="blank-img" src="{{image_path+'/blank/'+blankData[type].icon+'.png'}}"></image><text class="blank-text">{{blankData[type].name}}</text></view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "card-serve": "/components/card/cardserve",
+    "card-store": "/components/card/cardstore"
+  }
+}

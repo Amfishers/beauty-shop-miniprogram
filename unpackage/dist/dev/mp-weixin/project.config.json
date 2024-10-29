@@ -1,0 +1,154 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "minified": true,
+    "postcss": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "wxc924d203725b6a8a",
+  "projectname": "娇杨佳美",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 1,
+      "list": [
+        {
+          "name": "商品详情",
+          "query": "id=1",
+          "id": 0,
+          "pathName": "pages/goods/goods"
+        },
+        {
+          "name": "首页",
+          "query": "",
+          "id": 1,
+          "pathName": "pages/index/index"
+        },
+        {
+          "name": "购物车",
+          "query": "",
+          "id": 2,
+          "pathName": "pages/cart/cart"
+        },
+        {
+          "name": "订单结果",
+          "query": "",
+          "id": 3,
+          "pathName": "pages/cart/result"
+        },
+        {
+          "name": "收件地址列表",
+          "query": "",
+          "id": 4,
+          "pathName": "pages/my/address_list"
+        },
+        {
+          "name": "收件地址",
+          "query": "",
+          "id": 5,
+          "pathName": "pages/my/address"
+        },
+        {
+          "name": "个人",
+          "query": "",
+          "id": 6,
+          "pathName": "pages/my/my"
+        },
+        {
+          "name": "订单详情",
+          "query": "id=8&type=2",
+          "id": 7,
+          "pathName": "pages/order/order"
+        },
+        {
+          "name": "订单列表",
+          "query": "",
+          "id": 8,
+          "pathName": "pages/order/order_list"
+        },
+        {
+          "name": "优惠券",
+          "query": "id=1",
+          "id": 9,
+          "pathName": "pages/my/coupon_list"
+        },
+        {
+          "name": "提现",
+          "query": "",
+          "id": 10,
+          "pathName": "pages/my/cash_out"
+        },
+        {
+          "name": "提现记录",
+          "query": "",
+          "id": 11,
+          "pathName": "pages/my/cash_out_list"
+        },
+        {
+          "name": "评价",
+          "query": "id=62&type=1",
+          "id": 12,
+          "pathName": "pages/order/evaluate"
+        },
+        {
+          "name": "累计收益",
+          "query": "",
+          "id": 13,
+          "pathName": "pages/my/earnings"
+        },
+        {
+          "name": "邀请",
+          "query": "id=62&type=1",
+          "id": 14,
+          "pathName": "pages/my/invite"
+        },
+        {
+          "name": "优惠券详情",
+          "query": "id=1&shareId=33",
+          "id": 15,
+          "pathName": "pages/index/coupon"
+        },
+        {
+          "name": "推荐",
+          "query": "",
+          "id": 16,
+          "pathName": "pages/my/recommend"
+        },
+        {
+          "name": "常见问题",
+          "query": "",
+          "id": 17,
+          "pathName": "pages/my/faq_list"
+        },
+        {
+          "name": "常见问题详情",
+          "query": "id=1",
+          "id": 18,
+          "pathName": "pages/my/faq"
+        },
+        {
+          "name": "测试",
+          "query": "",
+          "id": 19,
+          "pathName": "pages/login/login"
+        }
+      ]
+    }
+  }
+}

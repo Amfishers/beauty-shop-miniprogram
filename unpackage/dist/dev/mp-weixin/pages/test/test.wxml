@@ -1,0 +1,1 @@
+<view style="margin-top:160px;"><block wx:for="{{cardStore}}" wx:for-item="item" wx:for-index="index" wx:key="id"><view><card-store vue-id="{{'f4372d00-1-'+index}}" name="{{item.name}}" rate="{{item.rate}}" storeImg="{{item.storeImg}}" bind:__l="__l"></card-store></view></block></view>

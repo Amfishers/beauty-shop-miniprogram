@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "virtual-store": "/components/store/virtualstore",
+    "physical-store": "/components/store/physicalstore"
+  }
+}

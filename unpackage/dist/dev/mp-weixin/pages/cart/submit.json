@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "order-item": "/components/order/orderItem",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

@@ -1,0 +1,141 @@
+@import './vars';
+
+@mixin ellipsisMultiline($number: 1) {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: $number;
+}
+
+@mixin ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+/*line-color*/
+
+@mixin border-top($Color) {
+	background-image: -webkit-linear-gradient(top, transparent, transparent 50%, $Color 50%, $Color 100%);
+	background-position: 0 top;
+	background-size: 100% 1px;
+	background-repeat: no-repeat;
+	-webkit-transform: translateZ(0);
+}
+
+@mixin border-bottom($Color) {
+	background-image: -webkit-linear-gradient(top, transparent, transparent 50%, $Color 50%, $Color 100%);
+	background-position: 0 bottom;
+	background-repeat: no-repeat;
+	background-size: 100% 1px;
+	-webkit-transform: translateZ(0);
+}
+
+@mixin border-right($Color) {
+	background-image: -webkit-linear-gradient(left, transparent, transparent 50%, $Color 50%, $Color 100%);
+	background-position: right 0;
+	background-repeat: no-repeat;
+	background-size: 1px 100%;
+}
+
+@mixin border-top-bottom($Color) {
+	background-image: -webkit-linear-gradient(top, transparent, transparent 50%, $Color 50%, $Color 100%), -webkit-linear-gradient(top, transparent, transparent 50%, $Color 50%, $Color 100%);
+	background-position: 0 top, 0 bottom;
+	background-size: 100% 1px, 100% 1px;
+	background-repeat: no-repeat, no-repeat;
+	-webkit-transform: translateZ(0);
+}
+
+@mixin border($Color) {
+	background: -webkit-linear-gradient(top, $Color, $Color 50%, transparent 50%) 0 top no-repeat, -webkit-linear-gradient(top, transparent, transparent 50%, $Color 50%) 0 bottom no-repeat, -webkit-linear-gradient(left, $Color, $Color 50%, transparent 50%) left 0 no-repeat, -webkit-linear-gradient(left, transparent, transparent 50%, $Color 50%) right 0 no-repeat;
+	background-size: 100% 1px, 100% 1px, 1px 100%, 1px 100%;
+}
+
+@mixin setTopLine($c: #C7C7C7) {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 1px;
+    border-top: 1px solid $c;
+    color: $c;
+    transform-origin: 0 0;
+    transform: scaleY(0.5);
+}
+
+@mixin setBottomLine($c: #C7C7C7) {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 1px;
+    border-bottom: 1px solid $c;
+    color: $c;
+    transform-origin: 0 100%;
+    transform: scaleY(0.5);
+}
+
+@mixin setLeftLine($c: #C7C7C7) {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    bottom: 0;
+    border-left: 1px solid $c;
+    color: $c;
+    transform-origin: 0 0;
+    transform: scaleX(0.5);
+}
+
+@mixin setRightLine($c: #C7C7C7) {
+    content: " ";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+    bottom: 0;
+    border-right: 1px solid $c;
+    color: $c;
+    transform-origin: 100% 0;
+    transform: scaleX(0.5);
+}
+
+@mixin box-shadow($x: 0, $y: 0, $blur: 1px, $color: #000) {
+	box-shadow: $arguments;
+	-webkit-box-shadow: $arguments;
+}
+
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin absolute-t-l($top, $left) {
+	position: absolute;
+	top: $top;
+	left: $left;
+}
+
+@mixin absolute-t-r($top, $right) {
+	position: absolute;
+	top: $top;
+	right: $right;
+}
+
+@mixin absolute-b-l($bottom, $left) {
+	position: absolute;
+	bottom: $bottom;
+	left: $left;
+}
+
+ @mixin absolute-b-r($bottom, $right) {
+	position: absolute;
+	bottom: $bottom;
+	right: $right;
+}

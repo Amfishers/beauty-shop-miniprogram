@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "order-item": "/components/order/order-item-origin",
+    "blank-item": "/components/blank"
+  }
+}

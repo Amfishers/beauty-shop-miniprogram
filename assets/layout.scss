@@ -1,0 +1,73 @@
+@import './vars';
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	color: $primary-color;
+  font-family:
+    system-ui,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,
+    Helvetica,Arial,
+    sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+
+.primary-btn {
+	background: $primary-color;
+	color: $secondary-color;
+}
+
+.default-btn {
+	color: $secondary-color;
+	border-color: $secondary-color;
+}
+
+.parmary-color {
+	color: $primary-color;
+}
+
+.secondary-color {
+	color: $secondary-color;
+}
+
+.third-color {
+	color: #CA935E;
+}
+
+.gery-text {
+	color: #666;
+}
+
+.common-btn {
+	border-radius: 40upx;
+	line-height: 80upx;
+	height: 80upx;
+	background-color: $primary-color;
+	color: #F5DBC3;
+	text-align: center;
+	font-size: 32upx;
+}
+
+.diypage {
+	padding-bottom: calc(100rpx + env(safe-area-inset-bottom) / 2);
+}
+
+// 主标题
+.main-title {
+	position: relative;
+	
+	&::before {
+		content: '';
+		@include absolute-t-l(50%, 0);
+		width: 6upx;
+		height: 27upx;
+		background-color: $primary-color;
+		margin-top: -13upx;
+	}
+}
+
+// 主要间隔
+.main-pad {
+	padding-left: 32upx;
+	padding-right: 32upx;
+}

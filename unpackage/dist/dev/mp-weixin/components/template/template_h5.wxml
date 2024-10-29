@@ -1,0 +1,1 @@
+<view class="bg-white"><block wx:if="{{resdata.title}}"><floor_title vue-id="1e075e2e-1" title="{{resdata.title}}" sub_title="{{resdata.sub_title}}" bind:__l="__l"></floor_title></block><view class="h5"><rich-text nodes="{{$root.f0}}"></rich-text></view></view>

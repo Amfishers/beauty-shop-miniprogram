@@ -1,0 +1,1 @@
+<view class="index"><cu-custom vue-id="3b16ee1a-1" isBack="{{true}}" bgColor="bg-white-heavy" bind:__l="__l" vue-slots="{{['content']}}"><view slot="content">常见问题</view></cu-custom><view class="message"><view class="title padding-bottom-lg solid-bottom text-center">{{faqsDetail.ask||'常见问题'}}</view><rich-text nodes="{{faqsDetail.answer}}"></rich-text></view></view>
